@@ -1,4 +1,4 @@
-// import hero_img from "../assets/il-platform.webp"
+import hero_img from "../assets/create-a-3d-image-that-embodies-the-following-comp-1jPV6THBTWWmBz3qww-Nlg-GgQkXsLkRUG7lfFFiYurcA-removebg-preview.png"
 import AfterHero from "./AfterHero";
 import nanoSat from "../assets/nanoStaellite.jpg"
 import distanceMangr from "../assets/distanceManager.jpg"
@@ -56,9 +56,9 @@ const LandingPage = () => {
                 </div>
 
                 {/* image */}
-                {/* <div className="w-[45%]">
-                    <img src={hero_img} alt="" className=" scale-[120%] mt-[5%]" />
-                </div> */}
+                <div className="w-[45%]">
+                    <img src={hero_img} alt="" className=" scale-[110%] mt-[5%]" />
+                </div>
 
 
             </div>
