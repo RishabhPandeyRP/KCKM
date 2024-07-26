@@ -2,22 +2,24 @@ import hero_img from "../assets/create-a-3d-image-that-embodies-the-following-co
 import AfterHero from "./AfterHero";
 import nanoSat from "../assets/nanoStaellite.jpg"
 import distanceMangr from "../assets/distanceManager.jpg"
+import manishSir from "../assets/manishsir.jpg"
+import somnathSir from "../assets/somnathsir.jpg"
 const LandingPage = () => {
     const data = [
         {
-            heading:"Connect globally",
-            para1:"Remain anonymous or build your personal profile while engaging with over 1 million verified physicians.",
-            para2:"Talk medicine, talk news, talk gossip. Enjoy a “Sermo” about anything (it’s Latin for talk).",
-            highData:" 1 million verified physicians",
+            heading:"Distance Manager",
+            // para1:"Remain anonymous or build your personal profile while engaging with over 1 million verified physicians.",
+            // para2:"Talk medicine, talk news, talk gossip. Enjoy a “Sermo” about anything (it’s Latin for talk).",
+            // highData:" 1 million verified physicians",
             style:"w-[100%] flex-row ",
             image:nanoSat
         },
 
         {
-            heading:"Earn for your insights",
-            para1:"Earn money for participating in paid medical research studies and contributing insights to your peers’ current challenges.",
-            para2:"Just last year, Sermo members earned over $20 million dollars collectively.",
-            highData:" 1 million verified physicians",
+            heading:"Nano Satellite",
+            // para1:"Earn money for participating in paid medical research studies and contributing insights to your peers’ current challenges.",
+            // para2:"Just last year, Sermo members earned over $20 million dollars collectively.",
+            // highData:" 1 million verified physicians",
             style:"w-[100%] flex-row-reverse ",
             image:distanceMangr
         },
@@ -101,6 +103,27 @@ const LandingPage = () => {
                     <img src={hero_img} alt="" className="scale-[90%]"/>
                 </div>
             </div> */}
+
+            <div className="w-[80%] mx-auto mt-[20%] ">
+                <p className="text-[40px] font-[700] text-center">About Us</p>
+                <div className="flex justify-between  border-red-600 px-40 mt-10">
+                    <div className="flex-col">
+                        <img src={manishSir} alt="" className="w-[200px] rounded-full" />
+                        <p className="text-[30px] font-[400] text-neutral-600 mt-6">Dr. Manish Kumar</p>
+                        <p className="text-[25px] font-[400] text-neutral-600">Founder & CEO</p>
+                        <p className="text-[18px] font-[400] text-neutral-600">Ph.D. (Electronics & Communication Engg.)</p>
+                    </div>
+
+                    <div >
+                    <img src={somnathSir} alt="" className="w-[200px] rounded-full" />
+                        <p className="text-[30px] font-[400] text-neutral-600 mt-6">Mr. Somnath Das</p>
+                        <p className="text-[25px] font-[400] text-neutral-600">Co-Founder</p>
+                        <p className="text-[18px] font-[400] text-neutral-600">M.Sc. (Maths)</p>
+                        <p className="text-[18px] font-[400] text-neutral-600">M.Phil. (Maths)</p>
+                        <p className="text-[18px] font-[400] text-neutral-600">M.Tech (Computer Science)</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
