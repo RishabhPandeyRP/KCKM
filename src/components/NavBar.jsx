@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Screenshot 2024-07-26 160019.png"
+import logo from "../assets/logo2.png"
 import hamburg from "../assets/hamburger.png"
 import dropicon from "../assets/down-arrow (1).png"
 const NavBar = () => {
@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className="flex items-center gap-10">
                 {/* logo */}
                 <div className=" border-red-600 w-fit ml-7 h-fit">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" className="w-[55px]"/>
                 </div>
 
                 {/* multiple options */}
