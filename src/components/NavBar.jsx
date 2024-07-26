@@ -17,7 +17,7 @@ const NavBar = () => {
 
                 {/* multiple options */}
                 <div className="hidden sm:flex gap-8 text-[14px] font-[500] lg:flex sm:max-lg:hidden ">
-                    {['About', 'Blog', 'Resources'].map((item, index) => (
+                    {/* {['About', 'Blog', 'Resources'].map((item, index) => (
                         <div key={index} className="relative group ">
                             <span className="hover:text-[#5BFF3C] flex items-center gap-1">
                                 {item}
@@ -30,7 +30,10 @@ const NavBar = () => {
                                 <span className="p-2 hover:bg-gray-100">Option 4</span>
                             </div>
                         </div>
-                    ))}
+                    ))} */}
+                    <div>About</div>
+                    <div>Blog</div>
+                    <div>Resources</div>
                 </div>
 
             </div>
