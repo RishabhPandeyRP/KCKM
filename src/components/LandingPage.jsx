@@ -76,7 +76,7 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
-            <div className="w-[80%] mx-auto  mt-[9%] ml-[13%]">
+{/*             <div className="w-[80%] mx-auto  mt-[9%] ml-[13%]">
                 <p className="text-[32px] font-[700] w-[50%]  mb-[8%]">
                     Explore the many benefits of joining Us
                 </p>
@@ -99,7 +99,7 @@ const LandingPage = () => {
                 <div className="w-[50%]">
                     <img src={hero_img} alt="" className="scale-[90%]"/>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
