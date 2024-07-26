@@ -5,7 +5,7 @@ import mask3 from "../assets/Mask Group (2).png"
 
 const Footer = ()=>{
     return(
-        <div className="">
+        <div className=" border-red-500 mt-[5%]">
             <div className="flex justify-between px-[5%] w-[80%] mx-auto items-center">
                 {/* logo */}
                 <div>
