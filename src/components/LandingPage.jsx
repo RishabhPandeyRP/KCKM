@@ -7,7 +7,7 @@ import somnathSir from "../assets/somnathsir.jpg"
 const LandingPage = () => {
     const data = [
         {
-            heading:"Distance Manager",
+            heading:"Nano Satellite",
             // para1:"Remain anonymous or build your personal profile while engaging with over 1 million verified physicians.",
             // para2:"Talk medicine, talk news, talk gossip. Enjoy a “Sermo” about anything (it’s Latin for talk).",
             // highData:" 1 million verified physicians",
@@ -16,7 +16,7 @@ const LandingPage = () => {
         },
 
         {
-            heading:"Nano Satellite",
+            heading:"Distance Manager",
             // para1:"Earn money for participating in paid medical research studies and contributing insights to your peers’ current challenges.",
             // para2:"Just last year, Sermo members earned over $20 million dollars collectively.",
             // highData:" 1 million verified physicians",
