@@ -1,4 +1,4 @@
-import logo from "../assets/Screenshot 2024-07-26 160019.png"
+import logo from "../assets/logo2.png"
 import mask1 from "../assets/Mask Group.png"
 import mask2 from "../assets/Mask Group (1).png"
 import mask3 from "../assets/Mask Group (2).png"
@@ -24,7 +24,7 @@ const Footer = ()=>{
             <div className=" bg-[#ECEDEF] mt-4">
                     <div className="w-[80%] mx-auto flex justify-between py-7 px-[5%]">
                         <p className="text-[12px] font-[400]">
-                            Copyright © 2024 One Life Healthcare
+                            Copyright © 2024 KCKM ELECTRONICS PRIVATE LIMITED
                         </p>
 
                         <div className="flex gap-3">
