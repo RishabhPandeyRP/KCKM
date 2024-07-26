@@ -1,6 +1,7 @@
 // import hero_img from "../assets/il-platform.webp"
 import AfterHero from "./AfterHero";
-import hero_img from "../assets/testImage-removebg-preview.png"
+import nanoSat from "../assets/nanoStaellite.jpg"
+import distanceMangr from "../assets/distanceManager.jpg"
 const LandingPage = () => {
     const data = [
         {
@@ -9,17 +10,17 @@ const LandingPage = () => {
             para2:"Talk medicine, talk news, talk gossip. Enjoy a “Sermo” about anything (it’s Latin for talk).",
             highData:" 1 million verified physicians",
             style:"w-[100%] flex-row ",
-            image:hero_img
+            image:nanoSat
         },
 
-        // {
-        //     heading:"Earn for your insights",
-        //     para1:"Earn money for participating in paid medical research studies and contributing insights to your peers’ current challenges.",
-        //     para2:"Just last year, Sermo members earned over $20 million dollars collectively.",
-        //     highData:" 1 million verified physicians",
-        //     style:"w-[100%] flex-row-reverse ",
-        //     image:hero_img
-        // },
+        {
+            heading:"Earn for your insights",
+            para1:"Earn money for participating in paid medical research studies and contributing insights to your peers’ current challenges.",
+            para2:"Just last year, Sermo members earned over $20 million dollars collectively.",
+            highData:" 1 million verified physicians",
+            style:"w-[100%] flex-row-reverse ",
+            image:distanceMangr
+        },
 
         // {
         //     heading:"Solve patient cases",
@@ -76,16 +77,16 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
-{/*             <div className="w-[80%] mx-auto  mt-[9%] ml-[13%]">
-                <p className="text-[32px] font-[700] w-[50%]  mb-[8%]">
-                    Explore the many benefits of joining Us
+            <div className="w-[80%] mx-auto  mt-[9%] ml-[13%]">
+                <p className="text-[40px] font-[700] w-[50%]  mb-[8%] mx-auto  border-red-300 text-center">
+                    Products
                 </p>
 
                 <AfterHero data={data}></AfterHero>
 
             </div>
 
-            <div className="flex w-[75%] mx-auto border-red-500 justify-between mt-[12%] mb-[12%]">
+            {/* <div className="flex w-[75%] mx-auto border-red-500 justify-between mt-[12%] mb-[12%]">
                 <div className="w-[25%]">
                     <p className="text-[44px] font-[700]">
                     Ready to experience this community?
