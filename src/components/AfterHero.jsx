@@ -3,7 +3,7 @@ const AfterHero = ({ data }) => {
         <div className="w-[100%]">
             {
                 data.map((item) => (
-                    <div className={`flex ${item.style} my-[7%] justify-between`}>
+                    <div className={`flex ${item.style} my-[10%] justify-between`}>
                         <div className="w-[45%]">
                             <p className="text-[32px] font-[700] mb-[5%]">
                                 {item.heading}
@@ -19,7 +19,8 @@ const AfterHero = ({ data }) => {
 
 
                         <div className=" border-red-500 w-[45%]">
-                            <img src={item.image} alt="" srcset="" className="" />
+                            <img src={item.image} alt="" srcset="" 
+                            className="w-[200px] rounded-md" />
                         </div>
                     </div>
                 ))
